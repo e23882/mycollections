@@ -1,0 +1,78 @@
+ body{padding-top: 70px;}
+@media screen and (max-width: 768px) 
+{
+	/*left*/
+	.side-collapse-container-left
+	{
+		position:relative;
+		left:0;
+		transition:left .4s;
+	}
+	.side-collapse-container-left.out
+	{
+		left:70%;
+	}
+	.side-collapse-left 
+	{
+		top:50px;
+		bottom:0;
+		left:0;
+		width:70%;
+		position:fixed;
+		overflow:hidden;
+		transition:width .4s;
+	}
+	.side-collapse-left.in 
+	{
+		width:0;
+	}
+	/*right*/
+	.side-collapse-container-right
+	{
+		position:relative;
+		right:0;
+		transition:right .4s;
+	}
+	.side-collapse-container-right.out
+	{
+		right:70%;
+	}
+	.side-collapse-right 
+	{
+		top:50px;
+		bottom:0;
+		right:0;
+		width:30%;
+		position:fixed;
+		overflow:hidden;
+		transition:width .4s;
+	}
+	.side-collapse-right.in 
+	{
+		width:0;
+	}
+}
+#header
+{
+	font-family:微軟正黑體;
+}
+#footer
+{
+	font-family:微軟正黑體;
+	background-color:#101010;
+	height:5%;
+	position:relative;
+	bottom:0px;
+	width:100%;
+	padding:10px;
+	color:white;
+	font-weight:100;
+}
+#banner
+{
+	
+}
+li
+{
+	display:inline;
+}
