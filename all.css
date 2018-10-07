@@ -1,5 +1,4 @@
  body{padding-top: 70px;}
- 
 @media screen and (max-width: 768px) 
 {
 	/*left*/
@@ -65,7 +64,7 @@
 	position:relative;
 	bottom:0px;
 	width:100%;
-	padding:10px;
+	padding:20px;
 	color:white;
 	font-weight:100;
 }
