@@ -1,0 +1,21 @@
+#itemWord
+{
+	text-align:center;
+	font-family:微軟正黑體;
+}
+a
+{
+	color:white;
+	font-weight:bold;
+}
+.footer
+{
+	font-size:25px;
+	text-align:center;
+	font-weight:600px;
+	color:white;
+	font-family:impact;
+	background-color:black;
+	padding-top:15px;
+	padding-bottom:15px;
+}
